@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 // {"name": "dinic 算法", "intro": "求最大流"}
-#include<iostream>
-#include<cstring>
-#include<cstdio>
-#include<queue>
-=======
 #include <cstdio>
 #include <cstring>
 #include <iostream>
 #include <queue>
->>>>>>> e35eab5d86e32ac5a9296563b344f5faa19dc0cb
 #define int long long
 using namespace std;
 const int N = 205, M = 5005;
