@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 // {"name": "primal-dual 算法", "intro": "有负环的最小费用最大流"}
-#include<iostream>
-#include<cstdio>
-#include<queue>
-=======
 #include <cstdio>
 #include <iostream>
 #include <queue>
->>>>>>> e35eab5d86e32ac5a9296563b344f5faa19dc0cb
 using namespace std;
 const int N = 5005, M = 50005, INF = 1e9;
 int n, m, s, t, head[N], tot = 1;
