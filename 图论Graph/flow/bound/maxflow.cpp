@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // {"name": "上下界网络流", "intro": "有源汇上下界最大流"}
-#include <cstdio>
-=======
->>>>>>> e35eab5d86e32ac5a9296563b344f5faa19dc0cb
 #include <algorithm>
 #include <cctype>
 #include <cstdio>
