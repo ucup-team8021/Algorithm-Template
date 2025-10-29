@@ -4,11 +4,11 @@ using namespace std;
 class Big {
  private:
  #define CLR(a) memset(a,0,sizeof(a))
- int MAXN = 9999; // MAXN ÊÇÒ»Î»ÖÐ×î´óµÄÊý×Ö
- int MAXSIZE = 10024; // MAXSIZE ÊÇÎ»Êý
- int DLEN = 4;// DLEN ¼ÇÂ¼Ñ¹¼¸Î»
+ int MAXN = 9999; // MAXN è¡¨ç¤ºæ¯ä¸€ä½æœ€å¤§å¤šå°‘
+ int MAXSIZE = 10024; // MAXSIZE è¡¨ç¤ºæœ€å¤šå¤šå°‘ä½
+ int DLEN = 4;// DLEN ï¿½ï¿½Â¼Ñ¹ï¿½ï¿½Î»
  int a[10024], len;
- bool flag;  // ±ê¼Ç·ûºÅ'-'
+ bool flag;  // ï¿½ï¿½Ç·ï¿½ï¿½ï¿½'-'
  Big() {
   len = 1, flag = false;
   memset(a, 0, sizeof a);
@@ -141,6 +141,6 @@ class Big {
   printf("%d", a[len - 1]);
   for (int i = len - 2; i >= 0; --i) { printf("%04d", a[i]); }
  }
- // TODO: Big / Big; Big Î»ÔËËã; Big ^ Big;
+ // TODO: Big / Big; Big Î»ï¿½ï¿½ï¿½ï¿½; Big ^ Big;
 };
 signed main() { return 0; }
