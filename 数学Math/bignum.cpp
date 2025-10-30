@@ -6,9 +6,9 @@ class Big {
  #define CLR(a) memset(a,0,sizeof(a))
  int MAXN = 9999; // MAXN 表示每一位最大多少
  int MAXSIZE = 10024; // MAXSIZE 表示最多多少位
- int DLEN = 4;// DLEN ��¼ѹ��λ
+ int DLEN = 4;// DLEN 表示每一位压了多少位
  int a[10024], len;
- bool flag;  // ��Ƿ���'-'
+ bool flag;  // flg = true 表示是负数
  Big() {
   len = 1, flag = false;
   memset(a, 0, sizeof a);
@@ -141,6 +141,6 @@ class Big {
   printf("%d", a[len - 1]);
   for (int i = len - 2; i >= 0; --i) { printf("%04d", a[i]); }
  }
- // TODO: Big / Big; Big λ����; Big ^ Big;
+ // TODO: Big / Big; Big 位运算; Big ^ Big;
 };
 signed main() { return 0; }
