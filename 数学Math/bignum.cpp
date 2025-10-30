@@ -9,12 +9,12 @@ class Big {
  int DLEN = 4;// DLEN 表示每一位压了多少位
  int a[10024], len;
  bool flag;  // flg = true 表示是负数
+ 
+ public:
  Big() {
   len = 1, flag = false;
   memset(a, 0, sizeof a);
  }
- 
- public:
  Big(const int b) {
   int c, d = b;
   len = 0, CLR(a);
