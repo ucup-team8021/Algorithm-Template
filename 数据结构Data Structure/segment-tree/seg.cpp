@@ -1,3 +1,4 @@
+// {"name":"线段树","intro":"好用"}
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e6 + 5;
