@@ -1,3 +1,4 @@
+// {"name":"楼房重建线段树","intro":"前后缀相关"}
 #include <stdbool.h>
 #include <stdio.h>
 #define N 100005
