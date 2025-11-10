@@ -1,3 +1,4 @@
+// {"name":"ddp","intro":"动态 dp"}
 #include <bits/stdc++.h>
 #define INF 0x3f3f3f3f3f3f3f3f
 #define inf 0x3f3f3f3f
